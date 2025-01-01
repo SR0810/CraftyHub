@@ -1,0 +1,106 @@
+body {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #262626;
+}
+
+header {
+    background-color: #edaf79;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img.logo {
+    height: 100px; /* Adjust the height as needed */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+nav {
+    margin: 20px 0;
+}   
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #edaf79;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #fad7a0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fad7a0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #262626;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0.5em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.qr-code {
+    height: 200px; /* Adjust the height as needed */
+    display: block;
+    margin-right: 20px auto; /* Center the QR code */
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-image {
+    width: 30%; /* Adjust the width as needed */
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
